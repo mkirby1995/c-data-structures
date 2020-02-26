@@ -11,7 +11,7 @@ typedef struct Node {
 typedef struct Linked_List {
     Node *head;
     Node *tail;
-    int length;
+    int length; 
 } Linked_List;
 
 
