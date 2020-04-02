@@ -88,7 +88,12 @@ int BST_is_root(BST *node)
 
 
 // Size: Return the number of nodes in the Tree
+int BST_size(BST *root)
+{
+    if (root != NULL) {
 
+    }
+};
 
 // Elements: Return an iterator of all emelments in the tree
 // Positions: Return an iterator of all the nodes found in the tree
@@ -116,26 +121,16 @@ void BST_insert(BST *tree, int value)
       };
 };
 
-
+/*
 // Destroy Tree
 void BST_destroy(BST *tree)
 {
 
 };
-
+*/
 
 int main()
 {
     BST *tree = BST_create(7);
-    BST_insert(tree, 9);
-    BST_insert(tree, 4);
-    BST_insert(tree, 1);
-    BST_insert(tree, 6);
-    BST_insert(tree, 10);
-    BST_insert(tree, 3);
-    BST_insert(tree, 5);
-    printf("Root: %d\n", tree->value);
-    printf("%d\n", tree->right->value);
-    printf("%d\n", tree->left->value);
     return 0;
 };
